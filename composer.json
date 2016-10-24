@@ -1,0 +1,25 @@
+{
+  "name" : "ignaszak/permissions",
+  "type" : "library",
+  "description" : "Permissions system",
+  "keywords" : [
+    "permissions",
+    "rules",
+    "access"
+  ],
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "Tomasz Ignaszak",
+    "email" : "tomek.ignaszak@gmail.com"
+  }
+  ],
+  "require" : {
+    "php" : ">=7.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Ignaszak\\Permissions\\" : "src/",
+      "Test\\" : "tests/"
+    }
+  }
+}
